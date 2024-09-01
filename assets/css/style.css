@@ -1,0 +1,152 @@
+  body {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+  }
+
+  section {
+      background-color: white;
+      width: 24em;
+      min-height: 100vh;
+      border-color: 1px gray;
+  }
+
+  .flex-box {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #E8EBE4;
+  }
+
+  .flex-item {
+      display: flex;
+      padding: 1em;
+      height: 2em;
+      margin-left: 1em;
+      align-items: center;
+  }
+
+  .flex-item img {
+      border-radius: 100%;
+      width: 2em;
+      height: 2em;
+      border: 2px solid #E8EBE4;
+  }
+
+  .contact-info {
+      padding-left: 1em;
+  }
+
+  .contact-info small {
+      font-size: x-small;
+      color: #828485;
+  }
+
+  .contact-info p {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+  }
+
+  nav ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+  }
+
+  nav li {
+      list-style: none;
+      padding: 1em;
+      display: flex;
+      align-items: center;
+      border: 1px solid #E8EBE4;
+  }
+
+  nav p {
+      color: #1b1f21;
+  }
+
+  li img {
+      border-radius: 100%;
+      width: 3em;
+      border: 2px solid #E8EBE4;
+  }
+
+
+  .fa-solid {
+      padding: 1em;
+  }
+
+  main {
+      width: 100%;
+  }
+
+  button {
+      height: 3em;
+      width: 11em;
+      background-color: #A491D2;
+      border: none;
+      color: white;
+      font-size: medium;
+  }
+
+  .contact-info2 {
+      padding-left: 1em;
+
+  }
+
+  .contact-info2 small {
+      font-size: small;
+      color: #1b1f21;
+  }
+
+  .contact-info2 p {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  .flex-box2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 8em;
+      border: 1px solid #E8EBE4;
+      margin-bottom: 0;
+  }
+
+
+  .hero-container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  main img {
+      width: 300px;
+      border-radius: 3%;
+  }
+
+  .content {
+      font-size: 1em;
+      height: 10em;
+      width: 100%;
+      text-align: center;
+      color: #1B1F21;
+  }
+
+  h1 {
+      font-size: 2.8em;
+      font-weight: 500;
+      margin-bottom: 0;
+  }
+
+
+  .flex-container {
+      display: flex;
+  }
